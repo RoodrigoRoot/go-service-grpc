@@ -15,8 +15,7 @@
 2. Run container:
 `docker run -p 50051:50051 go-grpc`
 
-3. Enter the container:
-`docker exec -ti <name_container> bash`
+
 
 
 ### Micro with gRPC
@@ -29,9 +28,6 @@
 
 2. Run container:
 `docker run -p 8081:8081 go-grpc`
-
-3. Enter the container:
-`docker exec -ti <name_container> bash`
 
 
 
