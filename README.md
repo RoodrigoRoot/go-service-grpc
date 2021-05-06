@@ -18,12 +18,6 @@
 3. Enter the container:
 `docker exec -ti <name_container> bash`
 
-4. Run client:
-`go run client/main.go`
-
-5. Response:
-`name:"Rodrigo"  age:"25"  email:"francisco@miflink.com"  phone:"741"`
-
 
 ### Micro with gRPC
 `cd micro`
