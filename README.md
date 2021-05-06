@@ -16,7 +16,9 @@
 `docker run -p 50051:50051 go-grpc`
 
 
-### To run Stress Test
+
+
+### To run Stress Test (Python-gRPC) 
 We need have ghz
 
 and execute:
@@ -24,7 +26,10 @@ and execute:
 `ghz  -c 100 -n 1000 --insecure  --proto proto/users.proto --call users.User.GetUser  localhost:50051`
 
 
-### Micro with gRPC
+
+
+
+### Micro with gRPC 
 `cd micro`
 
 #### Installation
@@ -34,6 +39,11 @@ and execute:
 
 2. Run container:
 `docker run -p 8081:8081 go-grpc`
+
+
+### To run Stress Test (Go-Micro)
+
+execute:
 
 `ghz  -c 100 -n 1000 --insecure  --proto proto/greeter.proto --call greeter.Greeter.GetUser  localhost:8081`
 
