@@ -28,8 +28,16 @@
 ### Micro with gRPC
 `cd micro`
 
+#### Installation
 
-Under construction ....
+1. Create the container:
+`docker build -t micro-grpc .`
+
+2. Run container:
+`docker run -p 8081:8081 go-grpc`
+
+3. Enter the container:
+`docker exec -ti <name_container> bash`
 
 
 
